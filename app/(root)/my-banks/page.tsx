@@ -36,9 +36,9 @@ export default async function MyBanks () {
             <div>
               <AddVendorForm user={user}  />
 
-              <Link href={`/transactions/?id=${appwriteItemId}`} className='view-all-btn ml-5'>
+              {/* <Link href={`/transactions/?id=${appwriteItemId}`} className='view-all-btn ml-5'>
                   View All
-              </Link>
+              </Link> */}
             </div>
         </header>
 
