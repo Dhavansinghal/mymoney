@@ -12,7 +12,7 @@ export default async function RootLayout({
   if(!user) redirect('/sign-in');
   
   return (
-   <main className="flex h-screen w-full font-inter">
+   <main className="flex h-screen w-full font-inter p-10">
       {children}
    </main>
   );

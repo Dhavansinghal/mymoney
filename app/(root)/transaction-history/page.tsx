@@ -48,7 +48,7 @@ export default async function TransactionHistory() {
               </Link> */}
             </div>
         </header>
-        <div>{String(new Date(timestamp))}</div>
+        <div className='pb-10'>{String(new Date(timestamp))}</div>
 
         <Table>
           <TableCaption>A list of your recent Transactions.</TableCaption>
